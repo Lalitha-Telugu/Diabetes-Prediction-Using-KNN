@@ -1,7 +1,7 @@
 # Diabetes Prediction Using KNN Classification
 
 ## Project Overview
-This project uses the K-Nearest Neighbors (KNN) algorithm to predict whether a person is diabetic or non-diabetic based on medical diagnostic measurements.
+This project implements the K-Nearest Neighbors (KNN) Classification algorithm to predict whether a person is diabetic or non-diabetic based on medical diagnostic measurements.
 
 ## Dataset
 - **Dataset:** Pima Indians Diabetes Dataset
@@ -24,11 +24,10 @@ This project uses the K-Nearest Neighbors (KNN) algorithm to predict whether a p
 4. Feature Scaling
 5. Train-Test Split
 6. KNN Model Implementation
-7. Hyperparameter Tuning (if applicable)
-8. Model Evaluation
+7. Model Evaluation
 
 ## Algorithm
-K-Nearest Neighbors (KNN) Classification.
+**K-Nearest Neighbors (KNN) Classification**
 
 ## Evaluation Metrics
 - Accuracy
@@ -37,15 +36,34 @@ K-Nearest Neighbors (KNN) Classification.
 - F1-Score
 - Confusion Matrix
 
-## Project Files
-- `KNN_Diabetes_Classification.ipynb` – Jupyter Notebook containing the complete implementation.
+## Project Results
+Add your actual model evaluation results here:
+- Accuracy: [Your Result]
+- Precision: [Your Result]
+- Recall: [Your Result]
+- F1-Score: [Your Result]
+
+## Project Structure
+- `knn_classification.ipynb` – Complete project implementation.
 - `diabetes.csv` – Dataset used for model development.
+- `requirements.txt` – Required Python libraries.
+- `README.md` – Project documentation.
 
 ## How to Run
-1. Clone this repository.
-2. Install the required libraries.
-3. Open the Jupyter Notebook.
-4. Run the cells sequentially.
+
+1. Clone this repository:
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open the notebook and run the cells.
 
 ## Conclusion
-The project demonstrates the application of the KNN classification algorithm for diabetes prediction and evaluates its performance using classification metrics.
+This project demonstrates the application of the KNN classification algorithm for diabetes prediction using medical diagnostic data. Model performance is evaluated using classification metrics to understand its predictive capabilities.
